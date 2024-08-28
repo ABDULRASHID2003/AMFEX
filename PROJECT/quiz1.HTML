@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Computer Parts Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="parts.html">Basic Parts</a></li>
+                <li><a href="uses.html">Uses of Computers</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Test Your Knowledge</h2>
+            <form id="quizForm">
+                <div>
+                    <p>1. What is the brain of the computer?</p>
+                    <input type="radio" id="q1a" name="q1" value="a">
+                    <label for="q1a">Monitor</label><br>
+                    <input type="radio" id="q1b" name="q1" value="b">
+                    <label for="q1b">Keyboard</label><br>
+                    <input type="radio" id="q1c" name="q1" value="c">
+                    <label for="q1c">CPU</label><br>
+                    <input type="radio" id="q1d" name="q1" value="d">
+                    <label for="q1d">Mouse</label><br>
+                </div>
+                
+                <div>
+                    <p>2. Which part of the computer is used to type text?</p>
+                    <input type="radio" id="q2a" name="q2" value="a">
+                    <label for="q2a">Monitor</label><br>
+                    <input type="radio" id="q2b" name="q2" value="b">
+                    <label for="q2b">Keyboard</label><br>
+                    <input type="radio" id="q2c" name="q2" value="c">
+                    <label for="q2c">CPU</label><br>
+                    <input type="radio" id="q2d" name="q2" value="d">
+                    <label for="q2d">Mouse</label><br>
+                </div>
+
+                <input type="button" value="Submit Quiz" onclick="checkAnswers()">
+            </form>
+
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ICT E-Book for Upper Primary Students</p>
+    </footer>
+    <body>
+        
+    </body>
+</html>
